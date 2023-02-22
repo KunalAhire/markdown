@@ -26,10 +26,12 @@
     width: 800px;
 }
 table{
-    width: 50%;
+    width: 70%;
     border-collapse: collapse;
+    border: 1px solid black;
+    margin: 10px 0;
   }
-td, th, tr{
+table td, th, tr{
     padding: 5px;
     border: 1px solid black;
   }
@@ -39,8 +41,11 @@ td, th, tr{
 .main-background{
     background-color: #c0d8d8;
     margin-bottom: 1px;
-    padding: 3px;
-    padding-top: 5px;
+    padding: 10px 15px;
     border: 1px solid #1d2f2f;
     box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+code, pre{
+    background-color: white;
+    padding: 5px;
 }
